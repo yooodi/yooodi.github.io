@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MailVoice</title>
+<meta name="description" content="MailVoice reads your new emails to you as short voice briefs on Telegram and lets you reply by voice.">
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1d1b; --muted: #5d5b55; --accent: #2f5d50; --card: #ffffff; --line: #e6e3dc; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151614; --fg: #ecebe6; --muted: #a8a69f; --accent: #8cc4b0; --card: #1d1f1c; --line: #2e302c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 16px 40px; }
+  h1 { font-size: 2.2rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .lead { color: var(--muted); font-size: 1.15rem; margin: 0 0 36px; }
+  h2 { font-size: 1.15rem; margin: 36px 0 12px; }
+  ol { padding-left: 1.2em; }
+  li { margin: 6px 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>MailVoice</h1>
+  <p class="lead">Your new emails, read to you as short voice briefs on Telegram, and answered by voice.</p>
+
+  <div class="card">
+    <strong>What it does</strong>
+    <ol>
+      <li>When a new email arrives in your inbox, MailVoice writes a short summary and turns it into a voice message.</li>
+      <li>You get the voice brief and the written summary in Telegram. You can ask for the whole email to be read aloud.</li>
+      <li>To answer, you reply with a voice message. MailVoice transcribes it and shows you the text.</li>
+      <li>The email is sent only after you tap <em>Send</em>. Nothing is ever sent without your confirmation.</li>
+    </ol>
+  </div>
+
+  <h2>Languages</h2>
+  <p>Romanian and English.</p>
+
+  <h2>Google account access</h2>
+  <p>MailVoice connects to your Gmail account only after you sign in with Google and grant access. It uses that access
+    to read new messages in your inbox, mark them as read at your request, and send the replies you confirm.
+    You can remove its access at any time from
+    <a href="https://myaccount.google.com/connections">your Google Account</a>.</p>
+  <p>See the <a href="privacy.html">Privacy Policy</a> for exactly what data is used and how.</p>
+
+  <h2>Status</h2>
+  <p>MailVoice is a personal, self-hosted project in early testing. It is not offered to the public.</p>
+
+  <footer>
+    MailVoice · <a href="privacy.html">Privacy Policy</a> · Contact: <a href="mailto:ady.aka.yoda@gmail.com">ady.aka.yoda@gmail.com</a>
+    <br>Pe scurt, în română: MailVoice îți citește mailurile noi ca mesaje vocale pe Telegram și îți trimite răspunsurile dictate, numai după confirmarea ta.
+  </footer>
+</main>
+</body>
+</html>
